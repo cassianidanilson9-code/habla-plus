@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Habla+</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Habla+</div>
+    <ul>
+        <li><a href="#info">Nosotros</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>Domina el inglés como un profesional</h1>
+        <p>Aprende rápido, fácil y con método conversacional real.</p>
+        <a href="#contacto" class="btn">Empieza ahora</a>
+    </div>
+</header>
+
+<!-- SLIDER -->
+<section class="slider">
+    <div class="slides">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655">
+
+        <!-- duplicadas para loop infinito -->
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+    </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="info" class="info reveal">
+    <h2>¿Por qué Habla+?</h2>
+
+    <div class="about-grid">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655">
+        <div>
+            <p>
+                Habla+ enseña inglés de forma práctica, moderna y enfocada en conversación real.
+                Nada de teoría aburrida, solo lo que realmente se usa.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CURSOS -->
+<section id="cursos" class="grid reveal">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+        <h3>Básico</h3>
+        <p>Desde cero hasta conversaciones simples.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+        <h3>Intermedio</h3>
+        <p>Fluidez y comprensión avanzada.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655">
+        <h3>Avanzado</h3>
+        <p>Inglés profesional y empresarial.</p>
+    </div>
+
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="testimonios reveal">
+
+    <h2>Lo que dicen nuestros estudiantes</h2>
+
+    <div class="grid">
+
+        <div class="card user">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg">
+            <p>“Ahora puedo hablar sin miedo.”</p>
+        </div>
+
+        <div class="card user">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg">
+            <p>“Método súper efectivo.”</p>
+        </div>
+
+        <div class="card user">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg">
+            <p>“Me ayudó a conseguir trabajo.”</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto reveal">
+    <h2>Contacto</h2>
+
+    <form id="form">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo" required>
+        <textarea name="message" placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Habla+ - Todos los derechos reservados</p>
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
